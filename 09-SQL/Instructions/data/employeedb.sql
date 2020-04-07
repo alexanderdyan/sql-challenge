@@ -47,6 +47,13 @@ CREATE TABLE titles (
 	to_date DATE NOT NULL
 );
 
+SELECT * FROM departments;
+SELECT * FROM dept_emp;
+SELECT * FROM dept_manager;
+SELECT * FROM employees;
+SELECT * FROM salaries;
+SELECT * FROM titles;
+
 -- List the following details of each employee: 
 -- employee number, last name, first name, gender, and salary.
 
@@ -124,4 +131,3 @@ ORDER BY
 COUNT(last_name) DESC;
 
 -- BONUS -
-
